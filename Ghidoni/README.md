@@ -1,11 +1,15 @@
-# LALakersAI
-An iOS app that uses a CoreML model to take informations about Los Angeles Lakers' players.
+# QR code scanner
+A simple Android application that decodes QR codes in the absence of one of the finder patterns.
+15 neural networks are used to decode a maximum of 15 characters of the string encoded in the QR code.
 
-## Author
-[Daniele Colautti](https://github.com/danielecolautti)
+## Networks Architecture
+each network is composed of:
+1) 625 input neurons (input qr codes have 25x25 resolution)
+2) a hidden layer with 128 neurons
+3) 30 output neurons (1 neurons for each character that networks can predict)
 
-## CoreML Model
-The model used by the app is YOLOv3 trained using 2230 images (1775 train and 445 test) of Los Angeles Lakers' highlights.
+<img src="images/net_arch.jpg" width="75%" height="75%">
+## Android application
 
 ## Citations
 Model: [YOLOv3](https://pjreddie.com/darknet/yolo/)
