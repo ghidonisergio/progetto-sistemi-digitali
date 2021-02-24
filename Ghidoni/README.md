@@ -2,7 +2,7 @@
 A simple Android application that decodes QR codes in the absence of one of the finder patterns.
 15 neural networks are used to decode a maximum of 15 characters of the string encoded in the QR code.
 
-Before run any python script install the python libraries indicated in list_of_required_python_lib.txt.
+Before run any python script install the python libraries indicated in python_train_and_test/list_of_required_python_lib.txt.
 
 ## Networks Architecture
 each network is composed of:
