@@ -19,7 +19,8 @@ The dataset images are similar to the following
 
 <img src="qr_damaged.jpg" width="25%" height="25%">
 
-if you want to use the dll to damage the QR you have to set the absolute path to it in the first lines of dataset_generator.py (variable mask_lib).
+If you want to use the maskWhite.dll to damage the QR you have to set the absolute path to it in the first lines of dataset_generator.py (variable mask_lib).
+There is also a python implementation in the function applyDamageMaskPython. If you want to use this instead change the call applyDamageMaskDll to applyDamageMaskPython.
 
 ## Android application
 The base application is [code-scanner](https://github.com/yuriy-budiyev/code-scanner). 
