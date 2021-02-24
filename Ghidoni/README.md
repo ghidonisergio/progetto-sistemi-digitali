@@ -20,45 +20,11 @@ The dataset images are similar to the following
 <img src="qr_damaged.jpg" width="25%" height="25%">
 
 ## Android application
-The base application is [code-scanner](https://github.com/yuriy-budiyev/code-scanner). This application has been modified to host neural networks for decoding.
-The only activity of the project is the following
+The base application is [code-scanner](https://github.com/yuriy-budiyev/code-scanner). 
+
+After being modified to host neural networks for decoding, the only activity of the project is the following
 
 <img src="main_gui.png" width="25%" height="25%">
 
-## Citations
-Model: [YOLOv3](https://pjreddie.com/darknet/yolo/)
-
-Similar app used to develop this application: [YOLOv3-CoreML](https://github.com/Ma-Dan/YOLOv3-CoreML)
-
-## Useful Google Colab file
-
-[From YOLOv3 to Custom Object Detection](https://colab.research.google.com/drive/1BNajhZAxU_8J8DoK43y2JEJog0l4Hb6X)
-
-## Before Building the App
-Download the [model](https://github.com/danielecolautti/LALakersAI/tree/main/zippedModel) and copy it into LALakersAI/Utils/
-
-## Example Images
-
-### Model Output
-
-<img src="images/00200_y.jpg" width="75%" height="75%">
-
-### Live Detection
-
-<img src="images/detection.PNG" width="25%" height="25%">
-
-### Statistics
-
-<img src="images/statistics.PNG" width="25%" height="25%">
-
-### Line Up
-
-<img src="images/lineUp.PNG" width="25%" height="25%">
-
-### Successful Shot by Anthony Davis
-
-<img src="images/davis.PNG" width="25%" height="25%">
-
-### Settings
-
-<img src="images/settings.PNG" width="25%" height="25%">
+The application continuously captures frames from the phone's camera and sends them to networks. 
+The current input of the networks is visible in the upper square while the last successfully decoded string is shown at the bottom of the screen.
