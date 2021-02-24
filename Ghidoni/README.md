@@ -8,7 +8,8 @@ each network is composed of:
 2) a hidden layer with 128 neurons
 3) 30 output neurons (1 neurons for each character that networks can predict)
 
-<img src="net_arch.JPG" width="75%" height="75%">
+<img src="net_arch.JPG" width="25%" height="25%">
+
 ## Android application
 
 ## Citations
