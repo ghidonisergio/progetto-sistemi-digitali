@@ -29,14 +29,7 @@ MEM_TH_TR = 0.7
 MEM_TH_VAL = 0.2
 
 INIT = True
-GPU = True
 
-
-try:
-	if GPU:
-		import tfgpu
-except:
-	pass
 
 import tensorflow as tf
 
