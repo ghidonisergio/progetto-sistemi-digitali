@@ -10,6 +10,14 @@ each network is composed of:
 
 <img src="net_arch.JPG" width="25%" height="25%">
 
+The training and validation dataset are generated using dataset_generator.py script; the test dataset is generated with the test_dataset_generator.py script.
+
+Before run any python script install the python libraries indicated in list_of_required_python_lib.txt.
+
+The dataset images are similar to the following
+
+<img src="qr_damaged.jpg" width="25%" height="25%">
+
 ## Android application
 
 ## Citations
