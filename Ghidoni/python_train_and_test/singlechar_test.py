@@ -16,8 +16,6 @@ import os
 import time
 
 
-det = cv2.QRCodeDetector()
-reader = zxing.BarCodeReader()
 
 DAMAGES = [0,1,2]
 folder = 'test_dataset_25'
