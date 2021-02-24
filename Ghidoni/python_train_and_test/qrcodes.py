@@ -31,9 +31,7 @@ qr_levels_dict = {level_l:'level_l', level_m:'level_m',level_q:'level_q', level_
 
 # create training label for existing text and required position
 def make_label_for_position(label, pos):
-#chars ha dim batch con dentro la lettera in pos. pos di ogni label, # se la label è corta
     char = label[pos] if pos < len(label) else EOI # either a letter or EOI
-	#l'out della funz è un one hot vector (tutti 0.0 eccetto un 1.0 per la lettera giusta)
     return np.asarray(list( map(lambda l: l == char, ALL_CHAR_CLASSES)),dtype=np.float)
 
 	
