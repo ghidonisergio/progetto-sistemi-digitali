@@ -177,7 +177,7 @@ def generateQRDamaged():
 			exit()
 				
 		start_damaging_time = time.time()
-		qr_damaged_list = applyDamageMaskPython(qr, masks)
+		qr_damaged_list = applyDamageMaskDll(qr, masks)
 		damaging_time = time.time() - start_damaging_time
 		print('qr damaging time: {:2.0f}m:{:2.0f}s'.format(damaging_time // (60),int(damaging_time)%60))
 		
