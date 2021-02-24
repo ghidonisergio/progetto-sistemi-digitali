@@ -22,7 +22,7 @@ The dataset images are similar to the following
 ## Android application
 The base application is [code-scanner](https://github.com/yuriy-budiyev/code-scanner). 
 
-After being modified to host neural networks for decoding, the only activity of the project is the following
+After being modified to host neural networks for decoding, the only window of the project is the following
 
 <img src="main_gui.png" width="25%" height="25%">
 
